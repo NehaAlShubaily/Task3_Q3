@@ -1,3 +1,10 @@
+# Note
+work.login in the nav bar works 
+didnt get time to work on the issues of test-login component  because of  psr project, only could work on the design.
+Login using db.json Data 
+run db.json
+
+
 # RestaurentApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
