@@ -1,0 +1,17 @@
+th {
+    background-color: #20608a; /* Your desired header background color */
+    color: white; /* Text color for better contrast */
+    padding: 10px;
+    text-align: center;
+
+  }
+
+  td{
+    text-align: center;
+  }
+ .table{
+ 
+  --bs-table-hover-bg: #ead6e3;
+ }
+
+ 

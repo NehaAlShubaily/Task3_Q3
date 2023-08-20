@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'gilroy', sans-serif;
+}
+
+/* html, body{
+    width: 100%;
+    height: 100%;
+} */
+
+#main {
+    display: flex;
+    height: 700px;
+    width: 100%;
+ 
+}
+
+#left {
+    position: relative;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+}
+
+#right {
+    height: 100%;
+    width: 60%;
+    background-color: rgb(237, 85, 85);
+}
+
+#rtop{
+    display:flex;
+    height:50%;
+    width: 100%;
+    background-color: royalblue;
+
+
+}
+
+#rbottom{
+    width: 100%;
+    height: 50%;
+    background-image: url('https://img.freepik.com/free-photo/kebab-platter-with-grilled-chicken-lula-kebab-ribs-kebab-grilled-peppers_140725-6683.jpg?w=900&t=st=1692081901~exp=1692082501~hmac=beb54bd1f58bfc356e741c2299e353eb220f3229727512f540c8ad80fd247e5f');
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+#rtopleft{
+    width: 55%;
+    height:100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1672976509033-cfc634f57047?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=388&q=80);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+#rtopright{
+    width:45%;
+    height:100%;
+    background-image: url(https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60);
+    background-position: bottom;
+    background-size: cover;
+
+}
+
+#lnav{
+    display: flex;
+    width: 100%;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+
+#lnavr{
+    display: flex;
+    align-items:center ;
+}
+
+#lnavr a{
+margin-right: 16px;
+text-decoration: none;
+color:black;
+font-weight: 900;
+font-size: 20px;
+} 
+
+ #lnavr i{ 
+    color: rgb(93, 93, 255);
+
+}
+
+#textcenter h1{
+    font-size: 40px;
+    font-family: 'Playfair Display Regular',sans-serif;
+    font-weight: 600;
+}
+
+#textcenter p{
+    opacity: 6;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#textcenter a{
+    text-decoration: none;
+    color:#281212;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: .6;
+}
+
+
+/* next 5 codes to position in center and also put in left{position:relative} */
+
+#left #textcenter{
+    position: absolute;  
+    top: 30%;
+    left: 20%;
+    transform: translate((-50%,-50%));
+}
+
+
+@media(max-width: 500px){
+    #main{
+        flex-direction: column;
+
+    }
+
+   #main #left{
+    width: 100%;
+   }
+
+   #main #right{
+    width: 100%;
+   }
+}
+
+
+
+#slider{
+ 
+   
+   margin-left: 50px;
+   margin-right: 50px;
+    padding:60px;
+    background-color: rgb(255, 255, 255);
+       width:1200px;
+    height:700px;
+
+}
+
+#slider #carouselExampleControls{
+    
+   
+}

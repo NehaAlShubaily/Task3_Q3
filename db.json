@@ -1,0 +1,68 @@
+{
+  "resto": [
+    {
+      "id": 1,
+      "title": "MC d",
+      "Address": " Al khola ",
+      "mobile": "56846748",
+      "email": "mcd@abd.com"
+    },
+    {
+      "id": 2,
+      "title": "Hardees",
+      "Address": " Al Hail",
+      "mobile": "64846748",
+      "email": "hardees@abd.com"
+    },
+    {
+      "title": "KFC",
+      "Address": " Al Mabela south",
+      "email": "kfc@abd.com",
+      "id": 3
+    },
+    {
+      "title": "Burger King",
+      "Address": " Al hail south",
+      "email": "bk@abd.com",
+      "id": 4
+    },
+    {
+      "title": "Begums",
+      "Address": "al khoud",
+      "email": "begums@mail.com",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "name": "Neha Al shubaily",
+      "email": "nehashubaily3096@gmail.com",
+      "password": "0000",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Nehad Al shubaily",
+      "email": "admin@mail.com",
+      "password": "123"
+    },
+    {
+      "id": 3,
+      "name": "Nihal Al shubaily",
+      "email": "user@mail.com",
+      "password": "456"
+    },
+    {
+      "name": "Ilham",
+      "email": "ilham@mail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "Test1",
+      "email": "test@mail.com",
+      "password": "123",
+      "id": 5
+    }
+  ]
+}

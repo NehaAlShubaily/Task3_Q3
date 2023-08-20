@@ -1,0 +1,29 @@
+.footer{
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: rgb(252, 67, 0);
+    
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#head h1{
+    font-weight: 800;
+    font-size:40px;
+    color: orangered;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#navbarText a:hover{
+    color: orangered;
+}
+
+#navbarText a{
+    margin-right:6px;
+    font-size: 15px;
+    color:rgb(217, 207, 207);
+}
